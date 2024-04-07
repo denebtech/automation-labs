@@ -20,7 +20,7 @@ tasks_list = [
     {
         "summary": "Task 2",
         "description": "Description task 2",
-        "labels": ["task_1", "automation"]
+        "labels": ["task_2", "automation"]
     },
     ...
 ]
