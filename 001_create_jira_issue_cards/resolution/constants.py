@@ -5,9 +5,7 @@ userList: user dictionaries with user data: name and accountId
 tasksList: task dictionaries with issue data: summary, description, and labels
 """
 userList = [
-    {"name": "john doe", "id": "60031:aaaaaaaa-ccbb-2222-ffff-000000000001"},
-    {"name": "marie jones", "id": "60032:aaaaaaaa-ccbb-2222-ffff-000000000002"},
-    {"name": "jane smith", "id": "60033:aaaaaaaa-ccbb-2222-ffff-000000000003"},
+    {"name": "john doe", "id": "70121:b34e3e78-fc7f-41f1-b8a2-4a59a10a4304"}
 ]
 
 description = """

@@ -56,7 +56,13 @@ def create_issues(tasks, user):
         status_list.append(response.status_code)
 
         if response.status_code != 201:
-            logger.error("Status Code: %s, User: %s, error in task '%s'", response.status_code, user["name"], task["summary"])
+            logger.error(
+                "HTTP %s, User: %s, error in task '%s', reason: %s",
+                response.status_code,
+                user["name"],
+                task["summary"],
+                response.reason
+            )
 
     message = response_message(status_list)
 
